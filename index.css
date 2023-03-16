@@ -1,0 +1,27 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head{
+
+}
+.nav{
+    display:block;
+    border: 2px solid green;
+    width:100vw;
+    height:100px;
+    color: azure;
+    background-color: darkblue;
+    margin: auto;
+}
+ul{
+text-decoration: none;
+overflow: auto;
+
+}
+li{
+float: left;
+margin: 0px;
+} */
