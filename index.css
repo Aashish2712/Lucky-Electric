@@ -7,6 +7,12 @@ body {
   font-weight: 600;
   font-size: 25px;
 }
+
+.btn:hover {
+  color: #ffc107;
+  background-color: #3b5d50;
+  /* border: 4px solid #3b5d50; */
+}
 .navcontents {
   margin: 10px 10px;
   color: white;
@@ -28,7 +34,7 @@ small {
   font-size: 60px;
 }
 
-.btn {
+.mbtn {
   font-weight: 600;
   padding: 12px 30px;
   border-radius: 30px;
@@ -36,13 +42,13 @@ small {
   background: #2f2f2f;
   border-color: #2f2f2f;
 }
-.btn:hover {
+.mbtn:hover {
   color: #ffffff;
   background: #222222;
   border-color: #222222;
 }
-.btn:active,
-.btn:focus {
+.mbtn:active,
+.mbtn:focus {
   outline: none !important;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -193,7 +199,7 @@ small {
 .footer-section .subscription-form .form-control:-moz-placeholder {
   font-size: 14px;
 }
-.footer-section .subscription-form .btn {
+.footer-section .subscription-form .mbtn {
   border-radius: 10px !important;
 }
 .footer-section .sofa-img {

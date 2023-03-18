@@ -12,36 +12,40 @@ echo '
         <a class="nav-link  navcontents" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link navcontents" href="#">Products</a>
+        <a class="nav-link navcontents" href="products.php">Products</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link navcontents" href="#">About us </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link navcontents" href="#">Contact us </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link navcontents" href="#">Services</a>
-      </li>
-      <!-- <li class="nav-item dropdown">
-        <a class="nav-link navcontents dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li> -->
-      <!-- <li class="nav-item">
-        <a class="nav-link navcontents disabled">Disabled</a>
-      </li> -->
+      
+      <!-- 
+        <li class="nav-item">
+          <a class="nav-link navcontents" href="#"> </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link navcontents" href="#">Services</a>
+        </li> -->
+        <li class="nav-item dropdown">
+          <a class="nav-link navcontents dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+            Services
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Our servises</a>
+            <a class="dropdown-item" href="#">About us</a>
+            <a class="dropdown-item" href="#">Contact us</a>
+            
+          </div>
+          
+        </li> 
+        <li class="nav-item">
+         <a class="nav-link navcontents" href="#"> Login</a>
+       </li>
+       <li><a class="nav-link navcontents" href="#"><img src="images/user.svg"></a></li>
+						<li><a class="nav-link navcontents" href="cart.html"><img src="images/cart.svg"></a></li>
+    
     </ul>
     <form class="form-inline my-2 my-lg-0 ">
       <input class="form-control mr-sm-2 navform ml-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-warning my-2 my-sm-0 mr-4" type="submit">Search</button>
+      <button class="btn btn-warning mr-2" type="submit">Search</button>
     </form>
+    <!-- <button type="button" class="btn btn-outline-warning"></button> -->
   </div>
 </nav>
 
