@@ -21,11 +21,6 @@
 
     <title>Lucky Electric</title>
 </head>
-<!-- <style>
-h1{
-    background-color: green;
-}
-</style> -->
 
 <body>
     <?php require 'parts\header_.php';
@@ -81,9 +76,45 @@ h1{
     </h1>
 
 
+    <div class="container">
+        <h1 class="fs-9 fw-bold mb-4 text-center"> We design tools to unveil <br class="d-none d-xl-block" />your
+            superpowers</h1>
+        <div class="row">
+
+
+            <div class="col-lg-3 col-sm-6 mb-2"> <img class="mb-3 ms-n3" src="images/samsung.png" width="200"
+                    alt="Feature" />
+                <h4 class="mb-3">First click tests</h4>
+                <p class="mb-0 fw-medium text-secondary">While most people enjoy casino gambling,</p>
+            </div>
 
 
 
+            <div class="col-lg-3 col-sm-6 mb-2"> <img class="mb-3 ms-n3" src="assets/img/category/icon2.png" width="75"
+                    alt="Feature" />
+                <h4 class="mb-3">Design surveys</h4>
+                <p class="mb-0 fw-medium text-secondary">Sports betting,lottery and bingo playing for the fun</p>
+            </div>
+
+
+            <div class="col-lg-3 col-sm-6 mb-2"> <img class="mb-3 ms-n3" src="assets/img/category/icon3.png" width="75"
+                    alt="Feature" />
+                <h4 class="mb-3">Preference tests</h4>
+                <p class="mb-0 fw-medium text-secondary">The Myspace page defines the individual.</p>
+            </div>
+
+
+            <div class="col-lg-3 col-sm-6 mb-2"> <img class="mb-3 ms-n3" src="assets/img/category/icon4.png" width="75"
+                    alt="Feature" />
+                <h4 class="mb-3">Five second tests</h4>
+                <p class="mb-0 fw-medium text-secondary">Personal choices and the overall personality of the person.</p>
+            </div>
+
+
+        </div>
+        <div class="text-center"><a class="btn btn-warning" href="#!" role="button">SIGN UP NOW</a></div>
+    </div>
+    <!-- end of .container-->
 
 
 
@@ -91,7 +122,7 @@ h1{
     <!-- Start Product Section -->
     <div class="product-section">
         <div class="container">
-            <div class="row">
+            <div class="row mt-5">
 
                 <!-- Start Column 1 -->
                 <div class="col-md-12 col-lg-3 mb-5 mb-lg-0">
@@ -100,7 +131,7 @@ h1{
                         of meticulous craftsmanship, careful detailing, unmatched excellence, beauty and finesse. The
                         modular shape of AIR
                         products are minimalistic, flat and yet distinctive in appearance. </p>
-                    <p><a href="shop.html" class="mbtn">Explore</a></p>
+                    <p><a href="products.php" class="mbtn">Explore</a></p>
                 </div>
                 <!-- End Column 1 -->
 
@@ -147,7 +178,7 @@ h1{
                 <!-- End Column 4 -->
 
             </div>
-            <div class="row">
+            <div class="row my-5">
 
                 <!-- Start Column 1 -->
                 <div class="col-md-12 col-lg-3 mb-5 mb-lg-0">
@@ -155,12 +186,12 @@ h1{
                     <p class="mb-4">V-Guard Service Cables are made using annealed rigid bare electrolytic grade
                         conductor, insulated and sheathed with specially formulated PVC which makes it suitable for
                         outdoor installation. </p>
-                    <p><a href="shop.html" class="mbtn">Explore</a></p>
+                    <p><a href="products.php" class="mbtn">Explore</a></p>
                 </div>
                 <!-- End Column 1 -->
 
                 <!-- Start Column 2 -->
-                <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+                <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0 ">
                     <a class="product-item" href="cart.html">
                         <img src="images/j4.jpg" class="img-fluid product-thumbnail">
                         <h3 class="product-title">switch</h3>
