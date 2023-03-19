@@ -18,10 +18,12 @@ body {
   color: white;
   font-weight: 500;
 }
+
 .navcontents:hover,
 li.active a {
   color: yellow;
 }
+
 .navform {
   color: white;
 }
