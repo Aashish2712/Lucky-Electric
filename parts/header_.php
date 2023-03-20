@@ -34,9 +34,41 @@ echo '
           </div>
           
         </li> 
-        <li class="nav-item">
-         <a class="nav-link navcontents" href="log.php"> <img class="" src="images/user.svg"></a>
-       </li>
+      
+<!--           
+          <a class="nav-link navcontents" href="log.php"> <div class="dropdown">
+            <img class="" src="images/user.svg">
+          
+        </a>  <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div> -->
+<li class="nav-item dropdown"> 
+
+  <a class="nav-link navcontents"> 
+    <!-- <div class="dropdown"> -->
+    <img class="" src="images/user.svg">
+    
+  </a>   <div class="dropdown-content">
+    
+    <a  href="#"><img src="images/newcustmer.svg" alt="">&nbsp; New Customer?   Singup  </a>
+    <hr>
+
+    <a href="#"><img src="images/login.svg" alt=""> &nbsp;&nbsp;&nbsp;Existing User Login</a>
+    <hr>
+    
+    <a href="#"> <img class="" src="images/profile.svg"> Profile</a>
+    <hr>
+    
+    <a href="#"> <img class="" src="images/order.svg"> Order</a>
+    <hr>
+  <!-- </div> -->
+</div>
+</li>
+  
+      
        <!-- <li><a class="nav-link navcontents" href="#"></a></li> -->
 						<li><a class="nav-link navcontents" href="cart.php"><img src="images/cart.svg"></a></li>
     
