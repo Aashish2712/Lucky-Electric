@@ -39,22 +39,22 @@
             <div class="carousel-item active">
                 <img src="images/c2.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
+                    <!-- <h5 class="mt-5">First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p> -->
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="images/c3.webp" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
+                    <!-- <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p> -->
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="images/c2.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
+                    <!-- <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p> -->
                 </div>
             </div>
         </div>
@@ -76,45 +76,56 @@
     </h1>
 
 
+
+
     <div class="container">
-        <h1 class="fs-9 fw-bold mb-4 text-center"> We design tools to unveil <br class="d-none d-xl-block" />your
+        <h1 class="fs-5 fw-bold mt-5 mb-4 text-center"> We design tools to unveil your
             superpowers</h1>
         <div class="row">
 
 
-            <div class="col-lg-3 col-sm-6 mb-2"> <img class="mb-3 ms-n3" src="images/samsung.png" width="200"
-                    alt="Feature" />
-                <h4 class="mb-3">First click tests</h4>
-                <p class="mb-0 fw-medium text-secondary">While most people enjoy casino gambling,</p>
+            <div class="col-lg-3 col-sm-6 mb-2">
+                <a class="text-decoration-none" href="">
+                    <img class="mb-3 ms-n3 mt-3" src="images/goldmedal-logo.png" width="200" alt="Feature" />
+                    <h4 class="mb-3 text-dark">Switch wire fan</h4>
+                    <p class="mb-0 fw-medium text-secondary">While most people enjoy casino gambling,</p>
+                </a>
             </div>
 
 
 
-            <div class="col-lg-3 col-sm-6 mb-2"> <img class="mb-3 ms-n3" src="assets/img/category/icon2.png" width="75"
-                    alt="Feature" />
-                <h4 class="mb-3">Design surveys</h4>
-                <p class="mb-0 fw-medium text-secondary">Sports betting,lottery and bingo playing for the fun</p>
+            <div class="col-lg-3 col-sm-6 mb-2">
+                <a class="text-decoration-none" href="">
+                    <img class="mb-3 ms-n3" src="images/ashirvadlogo.svg" width="200" alt="Feature" />
+                    <h4 class="mb-3 text-dark">Design surveys</h4>
+                    <p class="mb-0 fw-medium text-secondary">Sports betting,lottery and bingo playing for the fun</p>
+                </a>
             </div>
 
 
-            <div class="col-lg-3 col-sm-6 mb-2"> <img class="mb-3 ms-n3" src="assets/img/category/icon3.png" width="75"
-                    alt="Feature" />
-                <h4 class="mb-3">Preference tests</h4>
-                <p class="mb-0 fw-medium text-secondary">The Myspace page defines the individual.</p>
+            <div class="col-lg-3 col-sm-6 mb-2">
+                <a class="text-decoration-none" href="">
+                    <img class="mb-3 ms-n3" src="images/texmologo.png" width="200" alt="Feature" />
+                    <h4 class="mb-3 text-dark">Preference tests</h4>
+                    <p class="mb-0 fw-medium text-secondary">The Myspace page defines the individual.</p>
+                </a>
             </div>
 
 
-            <div class="col-lg-3 col-sm-6 mb-2"> <img class="mb-3 ms-n3" src="assets/img/category/icon4.png" width="75"
-                    alt="Feature" />
-                <h4 class="mb-3">Five second tests</h4>
-                <p class="mb-0 fw-medium text-secondary">Personal choices and the overall personality of the person.</p>
+            <div class="col-lg-3 col-sm-6 mb-2">
+                <a class="text-decoration-none" href="">
+                    <img class="mb-3 ms-n3" src="images/lglogo.png" width="200" alt="Feature" />
+                    <h4 class="mb-3 text-dark">Five second tests</h4>
+                    <p class="mb-0 fw-medium text-secondary">Personal choices and the overall personality of the person.
+                    </p>
+                </a>
             </div>
 
 
         </div>
-        <div class="text-center"><a class="btn btn-warning" href="#!" role="button">SIGN UP NOW</a></div>
+        <!-- <div class="text-center"><a class="btn btn-warning" href="#!" role="button">SIGN UP NOW</a></div> -->
     </div>
-    <!-- end of .container-->
+    <!-- end of .container -->
 
 
 

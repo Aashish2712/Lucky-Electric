@@ -1,7 +1,7 @@
 <?php
 echo '
 <nav class="navbar navbar-expand-lg " data-bs-theme="dark" style="background-color:#3b5d50;">
-  <a class="navbar-brand ml-3 logo" href="index.php">Lucky Electric</a>
+  <a class="navbar-brand ml-3 logo" href="index.php">Lucky Electric <span class="dot"> . </span></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -53,10 +53,15 @@ echo '
     
   </a>   <div class="dropdown-content">
     
-    <a  href="#"><img src="images/newcustmer.svg" alt="">&nbsp; New Customer?   Singup  </a>
+    <a  href="" ><img src="images/newcustmer.svg" alt="">&nbsp; New Customer?   Singup   </a><button type="button" class="btn btn-warning btn-inf  me-2 px-4 d-inline"
+      data-bs-toggle="modal" data-bs-target="#signupmodal">signup</button> 
+   
+      
+     
     <hr>
 
-    <a href="#"><img src="images/login.svg" alt=""> &nbsp;&nbsp;&nbsp;Existing User Login</a>
+    <a href="#"><img src="images/login.svg" alt=""> &nbsp;&nbsp;Existing User Login</a><button type="button" class="btn btn-warning btn-inf me-2 px-4 py-1 d-inline"
+    data-bs-toggle="modal" data-bs-target="#loginmodal">login</button>
     <hr>
     
     <a href="#"> <img class="" src="images/profile.svg"> Profile</a>
@@ -64,10 +69,13 @@ echo '
     
     <a href="#"> <img class="" src="images/order.svg"> Order</a>
     <hr>
+   
   <!-- </div> -->
 </div>
 </li>
-  
+<!--
+<button type="button" class="btn btn-warning my-1 me-2"
+data-bs-toggle="modal" data-bs-target="#signupmodal">signup</button> -->
       
        <!-- <li><a class="nav-link navcontents" href="#"></a></li> -->
 						<li><a class="nav-link navcontents" href="cart.php"><img src="images/cart.svg"></a></li>
@@ -83,3 +91,5 @@ echo '
 
 
 ';
+include "singup.php";
+include "login.php";
