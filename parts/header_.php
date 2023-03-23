@@ -64,10 +64,10 @@ echo '
     data-bs-toggle="modal" data-bs-target="#loginmodal">login</button>
     <hr>
     
-    <a href="#"> <img class="" src="images/profile.svg"> Profile</a>
+    <a href="profile.php"> <img class="" src="images/profile.svg"> Profile</a>
     <hr>
     
-    <a href="#"> <img class="" src="images/order.svg"> Order</a>
+    <a href="order.php"> <img class="" src="images/order.svg"> Order</a>
     <hr>
    
   <!-- </div> -->
