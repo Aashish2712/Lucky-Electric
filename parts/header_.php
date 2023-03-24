@@ -15,14 +15,8 @@ echo '
         <a class="nav-link navcontents" href="products.php">Products</a>
       </li>
       
-      <!-- 
-        <li class="nav-item">
-          <a class="nav-link navcontents" href="#"> </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link navcontents" href="#">Services</a>
-        </li> -->
-        <li class="nav-item dropdown">
+     
+      <li class="nav-item dropdown ">
           <a class="nav-link navcontents dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
             Services
           </a>
@@ -33,60 +27,38 @@ echo '
             
           </div>
           
-        </li> 
+      </li> 
       
-<!--           
-          <a class="nav-link navcontents" href="log.php"> <div class="dropdown">
-            <img class="" src="images/user.svg">
-          
-        </a>  <div class="dropdown-content">
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
-        </div>
-      </div> -->
-<li class="nav-item dropdown"> 
 
-  <a class="nav-link navcontents"> 
-    <!-- <div class="dropdown"> -->
-    <img class="" src="images/user.svg">
-    
-  </a>   <div class="dropdown-content">
-    
-    <a  href="" ><img src="images/newcustmer.svg" alt="">&nbsp; New Customer?   Singup   </a><button type="button" class="btn btn-warning btn-inf  me-2 px-4 d-inline"
-      data-bs-toggle="modal" data-bs-target="#signupmodal">signup</button> 
-   
+      <li class="nav-item dropdown">
+        <a class="nav-link navcontents"> 
+          <img class="" src="images/user.svg">
+         </a>  
+         <div class="dropdown-content">
+           <a  href="" ><img src="images/newcustmer.svg" alt="">&nbsp; New Customer?   Singup   </a>
+           <button type="button" class="btn btn-warning btn-inf  me-2 px-4 d-inline"data-bs-toggle="modal"
+           data-bs-target="#signupmodal">signup</button> 
+           <hr>
+           <a href="#"><img src="images/login.svg" alt=""> &nbsp;&nbsp;Existing User Login</a>
+           <button type="button"class="btn btn-warning btn-inf me-2 px-4 py-1 d-inline"data-bs-toggle="modal" data-bs-target="#loginmodal">login</button>
+           <hr>
+           <a href="profile.php"> <img class="" src="images/profile.svg"> Profile</a>
+           <hr>
+           <a href="order.php"> <img class="" src="images/order.svg"> Order</a>
+           <hr>
+      </li>
       
-     
-    <hr>
-
-    <a href="#"><img src="images/login.svg" alt=""> &nbsp;&nbsp;Existing User Login</a><button type="button" class="btn btn-warning btn-inf me-2 px-4 py-1 d-inline"
-    data-bs-toggle="modal" data-bs-target="#loginmodal">login</button>
-    <hr>
-    
-    <a href="profile.php"> <img class="" src="images/profile.svg"> Profile</a>
-    <hr>
-    
-    <a href="order.php"> <img class="" src="images/order.svg"> Order</a>
-    <hr>
-   
-  <!-- </div> -->
-</div>
-</li>
-<!--
-<button type="button" class="btn btn-warning my-1 me-2"
-data-bs-toggle="modal" data-bs-target="#signupmodal">signup</button> -->
       
-       <!-- <li><a class="nav-link navcontents" href="#"></a></li> -->
-						<li><a class="nav-link navcontents" href="cart.php"><img src="images/cart.svg"></a></li>
-    
+      <li><a class="nav-link navcontents" href="cart.php"><img src="images/cart.svg"></a></li>
+      
     </ul>
     <form class="form-inline my-2 my-lg-0 " action="products.php">
-      <input class="form-control mr-sm-2 navform ml-2" type="search" placeholder="Search" aria-label="Search">
+      <input class="form-control mr-sm-2 navform  mx-2 my-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-warning mr-2" type="submit">Search</button>
     </form>
     <!-- <button type="button" class="btn btn-outline-warning"></button> -->
   </div>
+</div>
 </nav>
 
 

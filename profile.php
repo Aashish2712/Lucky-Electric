@@ -25,155 +25,96 @@
 <body>
     <?php require 'parts\header_.php';
     ?>
-    <div class="d-flex flex-row">
+
+    <div class="container rounded bg-white my-3 mx-auto">
+        <div class="row">
+            <div class="col-md-3 ">
 
 
 
-        <div class="d-flex flex-column flex-shrink-0 p-3 bg-light my-5 mx-3" style="width: 250px;">
-            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-                <!-- <svg class="bi me-2" width="40" height="32">
-                    <use xlink:href="#bootstrap"></use>
-                </svg> -->
-                <span class="fs-4"> User name </span>
-            </a>
-            <hr>
-            <ul class="nav nav-pills flex-column mb-auto">
-                <li class="nav-item">
-                    <a href="profile.php" class="nav-link active " aria-current="page">
-                        <svg class="bi me-2" width="16" height="16">
-                            <use xlink:href="#home"></use>
-                        </svg>
-                        <img class="mx-2" src="images/profile.svg">
-                        My profile
-                    </a>
-                </li>
+                <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
 
-                <a href="order.php" class="nav-link link-dark">
-                    <svg class="bi me-2" width="16" height="16">
-                        <use xlink:href="#table"></use>
-                    </svg>
-                    <img class="mx-2" src="images/order.svg">
-                    Orders
+                    <span class="fs-4"> Hello! User name </span>
                 </a>
-                </li>
+                <hr>
+                <ul class="nav nav-pills flex-column mb-auto">
+                    <li class="nav-item">
+                        <a href="profile.php" class="nav-link active " aria-current="page">
 
-                <li>
-                    <a href="address.php" class="nav-link link-dark">
-                        <svg class="bi me-2" width="16" height="16">
-                            <use xlink:href="#people-circle"></use>
-                        </svg>
-                        <img class="mx-2" src="images/address.svg">
-
-                        Addresses
-                    </a>
-                </li>
-                <li>
-                    <a href="payment.php" class="nav-link link-dark">
-                        <svg class="bi me-2" width="16" height="16">
-                            <use xlink:href="#grid"></use>
-                        </svg>
-                        <img class="mx-2" src="images/payment.svg">
-                        Payment
-                    </a>
-                </li>
-            </ul>
-            <hr>
-            <!-- <div class="dropdown">
-                <a href="#" class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle"
-                    id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
-                    <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
-                    <strong>mdo</strong>
-                </a>
-                <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
-                    <li><a class="dropdown-item" href="#">New project...</a></li>
-                    <li><a class="dropdown-item" href="#">Settings</a></li>
-                    <li><a class="dropdown-item" href="#">Profile</a></li>
-                    <li>
-                        <hr class="dropdown-divider">
+                            <img class="mx-1" src="images/profile.svg">
+                            My profile
+                        </a>
                     </li>
-                    <li><a class="dropdown-item" href="#">Sign out</a></li>
+
+                    <a href="order.php" class="nav-link link-dark">
+
+                        <img class="mx-1" src="images/order.svg">
+                        Orders
+                    </a>
+                    </li>
+
+                    <li>
+                        <a href="address.php" class="nav-link link-dark">
+
+                            <img class="mx-1" src="images/address.svg">
+
+                            Address
+                        </a>
+                    </li>
+                    <li>
+                        <a href="payment.php" class="nav-link link-dark">
+
+                            <img class="mx-1" src="images/payment.svg">
+                            Payment
+                        </a>
+                    </li>
                 </ul>
-            </div> -->
-        </div>
+                <hr>
+            </div>
 
 
 
-
-
-
-
-        <div class="row col-lg-8 border rounded mx-3 my-5 p-5 shadow-lg bg-white ">
-            <div class="col-md-4 text-center">
-                <img src="" class="img-fluid rounded" style="width: 180px;height:180px;object-fit: cover;">
-                <div>
-
-
-
-                    <a href="profile-edit.php">
-                        <button class="mx-auto  btn-sm btn btn-primary">Edit</button>
-                    </a>
-                    <a href="profile-delete.php">
-                        <button class="mx-auto  btn-sm btn btn-warning text-white">Delete</button>
-                    </a>
-                    <a href="logout.php">
-                        <button class="mx-auto  btn-sm btn btn-info text-white">Logout</button>
-                    </a>
-
+            <div class="col-md-8 ">
+                <div class="p-3 py-5">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h4 class="text-right">Profile Settings</h4>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-md-6"><label class="labels">Name</label><input type="text" class="form-control"
+                                placeholder="first name" value=""></div>
+                        <div class="col-md-6"><label class="labels">Surname</label><input type="text"
+                                class="form-control" value="" placeholder="surname"></div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-12"><label class="labels">Mobile Number</label><input type="text"
+                                class="form-control" placeholder="enter phone number" value=""></div>
+                        <div class="col-md-12"><label class="labels">Address Line 1</label><input type="text"
+                                class="form-control" placeholder="enter address line 1" value=""></div>
+                        <div class="col-md-12"><label class="labels">Address Line 2</label><input type="text"
+                                class="form-control" placeholder="enter address line 2" value=""></div>
+                        <div class="col-md-12"><label class="labels">Postcode</label><input type="text"
+                                class="form-control" placeholder="enter address line 2" value=""></div>
+                        <div class="col-md-12"><label class="labels">State</label><input type="text"
+                                class="form-control" placeholder="enter address line 2" value=""></div>
+                        <div class="col-md-12"><label class="labels">Area</label><input type="text" class="form-control"
+                                placeholder="enter address line 2" value=""></div>
+                        <div class="col-md-12"><label class="labels">Email ID</label><input type="text"
+                                class="form-control" placeholder="enter email id" value=""></div>
+                        <div class="col-md-12"><label class="labels">Education</label><input type="text"
+                                class="form-control" placeholder="education" value=""></div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-6"><label class="labels">Country</label><input type="text"
+                                class="form-control" placeholder="country" value=""></div>
+                        <div class="col-md-6"><label class="labels">State/Region</label><input type="text"
+                                class="form-control" value="" placeholder="state"></div>
+                    </div>
+                    <div class="mt-5 text-center"><button class="btn btn-primary profile-button" type="button">Save
+                            Profile</button></div>
                 </div>
             </div>
-            <div class="col-md-8">
-                <div class="h2">User Profile</div>
-                <table class="table table-striped">
-                    <tr>
-                        <th colspan="2">User Details:</th>
-                    </tr>
-                    <tr>
-                        <th><i class="bi bi-envelope"></i> Email</th>
-                        <td>rw </td>
-                    </tr>
-                    <tr>
-                        <th><i class="bi bi-person-circle"></i> First name</th>
-                        <td>rw</td>
-                    </tr>
-                    <tr>
-                        <th><i class="bi bi-person-square"></i> Last name</th>
-                        <td>rw</td>
-                    </tr>
-                    <tr>
-                        <th><i class="bi bi-gender-ambiguous"></i> Gender</th>
-                        <td>rw</td>
-                    </tr>
-                </table>
-            </div>
-            <a href="index.php">
-                <button class="btn btn-primary m-4">Home</button>
-            </a>
         </div>
-
     </div>
-
-
-    <!-- <div class="text-center alert alert-danger">That profile was not found</div> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <?php require 'parts/footer_.php'; ?>
     <!-- Optional JavaScript; choose one of the two! -->
